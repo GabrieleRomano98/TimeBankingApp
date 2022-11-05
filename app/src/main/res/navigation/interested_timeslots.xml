@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/interested_timeslots"
+    app:startDestination="@id/interested_timeslotsList">
+
+    <fragment
+        android:id="@+id/googleSignInFragment"
+        android:name="com.example.timebankingapp.GoogleSignInFragment"
+        android:label="Sign in" />
+    <fragment
+        android:id="@+id/interested_timeslotsList"
+        android:name="com.example.timebankingapp.InterestedTimeslotsList"
+        android:label="@string/Title3" >
+        <action
+            android:id="@+id/action_interested_timeslotsList_to_googleSignInFragment"
+            app:destination="@id/googleSignInFragment" />
+        <action
+            android:id="@+id/action_interested_timeslotsList_to_timeslot"
+            app:destination="@id/timeslot" />
+    </fragment>
+    <include app:graph="@navigation/timeslot" />
+</navigation>

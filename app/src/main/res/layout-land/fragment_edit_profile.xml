@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/nav_background"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/scrollView2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/profileImage"
+            android:layout_width="205dp"
+            android:layout_height="205dp"
+            android:layout_gravity="center|top|fill_vertical"
+            android:layout_marginBottom="-10dp"
+            android:contentDescription="@string/profile_image"
+            android:elevation="1dp"
+            android:scaleType="centerCrop"
+            app:shapeAppearance="@style/circleImageView"
+            tools:ignore="ImageContrastCheck"
+            tools:srcCompat="@drawable/image_sara" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/cameraButton"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center|end"
+            android:layout_marginTop="-50dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/circular_btn"
+            android:elevation="100dp"
+            app:cardCornerRadius="30dp"
+            app:contentPadding="7dp"
+            app:shapeAppearance="@style/circleImageView"
+            app:srcCompat="@android:drawable/ic_menu_camera"
+            tools:ignore="ImageContrastCheck" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="@string/name"
+            android:inputType="text"
+            android:singleLine="true"
+            android:textSize="24sp"
+            tools:ignore="DuplicateClickableBoundsCheck,TouchTargetSizeCheck,TextContrastCheck" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/surname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="-5dp"
+            android:hint="@string/surname"
+            android:inputType="text"
+            android:singleLine="true"
+            android:textSize="24sp"
+            tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="2"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout2"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="10dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mandatory_message"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="@string/username"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                    android:textSize="26sp"
+                    android:textStyle="bold" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/username"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:hint="@string/username_hint"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    android:textColorHint="#78909C"
+                    tools:ignore="DuplicateSpeakableTextCheck" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divider9"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="126dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="@string/location"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                    android:textSize="26sp"
+                    android:textStyle="bold" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/location"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:hint="@string/location_hint"
+                    android:inputType="text"
+                    tools:ignore="DuplicateSpeakableTextCheck,TextContrastCheck" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divider8"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView22"
+                        android:layout_width="126dp"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="@string/skills"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                        android:textSize="26sp"
+                        android:textStyle="bold" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/skill"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="10"
+                        android:hint="@string/skill_hint"
+                        android:inputType="text"
+                        android:textColorHint="#78909C"
+                        tools:ignore="DuplicateSpeakableTextCheck" />
+
+                    <Button
+                        android:id="@+id/chip_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/plus"
+                        android:textColor="#546E7A"
+                        android:textSize="20sp"
+                        tools:ignore="TextContrastCheck" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <com.google.android.material.chip.ChipGroup
+                        android:id="@+id/skills"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp">
+
+                    </com.google.android.material.chip.ChipGroup>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divider7"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="0dp"
+                android:text="@string/description"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="top"
+                android:hint="@string/description_hint"
+                android:inputType="textMultiLine"
+                android:minHeight="100dp"
+                android:singleLine="false"
+                android:textAlignment="gravity"
+                tools:ignore="TextContrastCheck" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

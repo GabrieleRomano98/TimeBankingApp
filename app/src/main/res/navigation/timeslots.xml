@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/timeslots"
+    app:startDestination="@id/timeslotList">
+
+    <fragment
+        android:id="@+id/timeslotList"
+        android:name="com.example.timebankingapp.TimeslotList"
+        android:label="TimeslotList" >
+        <action
+            android:id="@+id/action_timeslotList_to_timeslot"
+            app:destination="@id/timeslot" />
+    </fragment>
+    <include app:graph="@navigation/timeslot" />
+</navigation>

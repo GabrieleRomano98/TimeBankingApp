@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Caregiving"
+        android:title="@string/Caregiving" />
+    <item
+        android:id="@+id/Gardening"
+        android:title="@string/Gardening" />
+    <item
+        android:id="@+id/Pet_caring"
+        android:title="@string/Pet_caring" />
+    <item
+        android:id="@+id/Housework"
+        android:title="@string/Housework" />
+    <item
+        android:id="@+id/Bricolage"
+        android:title="@string/Handwork" />
+    <item
+        android:id="@+id/Technology"
+        android:title="@string/Technology" />
+    <item
+        android:id="@+id/Other"
+        android:title="@string/Other" />
+</menu>

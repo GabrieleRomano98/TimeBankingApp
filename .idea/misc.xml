@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/drawable-hdpi/green_grad.xml" value="0.117" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/drawable-hdpi/grey_grad.xml" value="0.117" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/drawable-hdpi/orange_grad.xml" value="0.117" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/drawable-hdpi/pink_grad.xml" value="0.117" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/drawable-hdpi/sky_grad.xml" value="0.117" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/drawable-hdpi/white_shape.xml" value="0.117" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/drawable-hdpi/yellow_grad.xml" value="0.117" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/drawable/background_star_rating.xml" value="0.2015" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/drawable/blue_grad.xml" value="0.117" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/drawable/ic_location.xml" value="0.2015" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/drawable/ic_star.xml" value="0.2015" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/drawable/search_view_background.xml" value="0.1" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/drawable/sky_background.xml" value="0.117" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/layout-land/activity_showprofile.xml" value="0.2" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/layout-land/fragment_accepted_assigned_timeslots.xml" value="0.20906370243693886" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/layout-land/fragment_create_timeslot.xml" value="0.23931623931623933" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/layout-land/fragment_edit_profile.xml" value="0.23931623931623933" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/layout-land/fragment_home_screen.xml" value="0.11990950226244344" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/layout-land/fragment_interested_timeslot_list.xml" value="0.1" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/layout-land/fragment_my_timeslot_details.xml" value="0.23931623931623933" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/layout-land/fragment_my_timeslot_details__edit.xml" value="0.23931623931623933" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/layout-land/fragment_my_timeslot_details_edit.xml" value="0.23931623931623933" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/layout-land/fragment_my_timeslot_list.xml" value="0.14188034188034188" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/layout-land/fragment_my_timeslots_list.xml" value="0.264" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/layout-land/fragment_reviews_list.xml" value="0.1" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/layout-land/fragment_show_profile.xml" value="0.264" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/layout-land/fragment_timeslot_details.xml" value="0.176" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/layout-land/fragment_timeslot_list.xml" value="0.2" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/layout-land/fragment_timeslot_list_item.xml" value="0.2" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/layout-ldltr-land/fragment_timeslot_list.xml" value="0.1" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/layout-port/fragment_home_screen.xml" value="0.19722222222222222" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/layout/activity_main.xml" value="0.2078804347826087" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/layout/activity_showprofile.xml" value="0.2" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/layout/appbar.xml" value="0.18432971014492755" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/layout/categories_item.xml" value="0.536" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/layout/dialog_filter.xml" value="0.20599409033347404" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/layout/dialog_review.xml" value="0.20599409033347404" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/layout/drawer_layout.xml" value="0.1" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/layout/fragment_accepted_assigned_timeslots.xml" value="0.20863616930312098" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/layout/fragment_chat.xml" value="0.136" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/layout/fragment_create_timeslot.xml" value="0.2" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/layout/fragment_edit_profile.xml" value="0.264" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/layout/fragment_home_screen.xml" value="0.176" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/layout/fragment_interested_timeslot_list.xml" value="0.12233549582947173" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/layout/fragment_login.xml" value="0.1685185185185185" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/layout/fragment_my_timeslot_details.xml" value="0.176" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/layout/fragment_my_timeslot_details__edit.xml" value="0.3" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/layout/fragment_my_timeslot_details_edit.xml" value="0.19487179487179487" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/layout/fragment_my_timeslots_list.xml" value="0.264" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/layout/fragment_reviews_list.xml" value="0.20863616930312098" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/layout/fragment_show_profile.xml" value="0.264" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/layout/fragment_timeslot.xml" value="0.18432971014492755" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/layout/fragment_timeslot_details.xml" value="0.2" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/layout/fragment_timeslot_details__edit.xml" value="0.176" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/layout/fragment_timeslot_list.xml" value="0.264" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/layout/fragment_timeslot_list_item.xml" value="0.264" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/layout/most_viewed_item.xml" value="0.2" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/layout/nav_header.xml" value="0.264" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/layout/recycler_view_header.xml" value="0.18518518518518517" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/layout/reviews_list_adapter_header.xml" value="0.264" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/layout/reviews_list_item.xml" value="0.20778110303548525" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/layout/toolbar.xml" value="0.23854166666666668" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/menu/category_menu.xml" value="0.264" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/menu/context_menu.xml" value="0.2109375" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/menu/drawer_view.xml" value="0.264" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/menu/edit_bar.xml" value="0.25416666666666665" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/menu/nav_header.xml" value="0.1" />
+        <entry key="..\:/ProgramProjects/TimeBankingApp/app/src/main/res/xml/searchable.xml" value="0.18611111111111112" />
+        <entry key="..\:/Users/Gabriele/Documents/GitHub/TimeBankingApp/app/src/main/res/drawable-hdpi/white_shape.xml" value="0.1355" />
+        <entry key="..\:/Users/Gabriele/Documents/GitHub/TimeBankingApp/app/src/main/res/drawable-land/app_background.xml" value="0.1115" />
+        <entry key="..\:/Users/Gabriele/Documents/GitHub/TimeBankingApp/app/src/main/res/drawable-v24/ic_baseline_person_outline_24.xml" value="0.2175" />
+        <entry key="..\:/Users/Gabriele/Documents/GitHub/TimeBankingApp/app/src/main/res/drawable/circular_btn.xml" value="0.1355" />
+        <entry key="..\:/Users/Gabriele/Documents/GitHub/TimeBankingApp/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.2175" />
+        <entry key="..\:/Users/Gabriele/Documents/GitHub/TimeBankingApp/app/src/main/res/drawable/ic_baseline_alternate_email_24.xml" value="0.2175" />
+        <entry key="..\:/Users/Gabriele/Documents/GitHub/TimeBankingApp/app/src/main/res/drawable/ic_baseline_attach_money_24.xml" value="0.2175" />
+        <entry key="..\:/Users/Gabriele/Documents/GitHub/TimeBankingApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2595" />
+        <entry key="..\:/Users/Gabriele/Documents/GitHub/TimeBankingApp/app/src/main/res/drawable/vv.xml" value="0.2595" />
+        <entry key="..\:/Users/Gabriele/Documents/GitHub/TimeBankingApp/app/src/main/res/layout-land/activity_editprofile.xml" value="0.2" />
+        <entry key="..\:/Users/Gabriele/Documents/GitHub/TimeBankingApp/app/src/main/res/layout-land/activity_showprofile.xml" value="0.10400000000000001" />
+        <entry key="..\:/Users/Gabriele/Documents/GitHub/TimeBankingApp/app/src/main/res/layout-land/fragment_edit_profile.xml" value="0.1" />
+        <entry key="..\:/Users/Gabriele/Documents/GitHub/TimeBankingApp/app/src/main/res/layout-land/fragment_show_profile.xml" value="0.2" />
+        <entry key="..\:/Users/Gabriele/Documents/GitHub/TimeBankingApp/app/src/main/res/layout-land/fragment_timeslot_list.xml" value="0.1" />
+        <entry key="..\:/Users/Gabriele/Documents/GitHub/TimeBankingApp/app/src/main/res/layout-land/fragment_timeslot_list_item.xml" value="0.1" />
+        <entry key="..\:/Users/Gabriele/Documents/GitHub/TimeBankingApp/app/src/main/res/layout-ldltr-land/fragment_timeslot_list.xml" value="0.24739583333333334" />
+        <entry key="..\:/Users/Gabriele/Documents/GitHub/TimeBankingApp/app/src/main/res/layout-v26/fragment_create_timeslot.xml" value="0.1453125" />
+        <entry key="..\:/Users/Gabriele/Documents/GitHub/TimeBankingApp/app/src/main/res/layout-v26/fragment_timeslot_details.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Gabriele/Documents/GitHub/TimeBankingApp/app/src/main/res/layout/activity_editprofile.xml" value="0.264" />
+        <entry key="..\:/Users/Gabriele/Documents/GitHub/TimeBankingApp/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Gabriele/Documents/GitHub/TimeBankingApp/app/src/main/res/layout/activity_showprofile.xml" value="0.2" />
+        <entry key="..\:/Users/Gabriele/Documents/GitHub/TimeBankingApp/app/src/main/res/layout/categories_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Gabriele/Documents/GitHub/TimeBankingApp/app/src/main/res/layout/chat_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Gabriele/Documents/GitHub/TimeBankingApp/app/src/main/res/layout/chat_list_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Gabriele/Documents/GitHub/TimeBankingApp/app/src/main/res/layout/chat_list_page.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Gabriele/Documents/GitHub/TimeBankingApp/app/src/main/res/layout/dialog_filter.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Gabriele/Documents/GitHub/TimeBankingApp/app/src/main/res/layout/fragment_create_timeslot.xml" value="0.264" />
+        <entry key="..\:/Users/Gabriele/Documents/GitHub/TimeBankingApp/app/src/main/res/layout/fragment_edit_profile.xml" value="0.22580645161290322" />
+        <entry key="..\:/Users/Gabriele/Documents/GitHub/TimeBankingApp/app/src/main/res/layout/fragment_home_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Gabriele/Documents/GitHub/TimeBankingApp/app/src/main/res/layout/fragment_login.xml" value="0.176" />
+        <entry key="..\:/Users/Gabriele/Documents/GitHub/TimeBankingApp/app/src/main/res/layout/fragment_settings.xml" value="0.17883211678832117" />
+        <entry key="..\:/Users/Gabriele/Documents/GitHub/TimeBankingApp/app/src/main/res/layout/fragment_show_profile.xml" value="0.264" />
+        <entry key="..\:/Users/Gabriele/Documents/GitHub/TimeBankingApp/app/src/main/res/layout/fragment_timeslot.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Gabriele/Documents/GitHub/TimeBankingApp/app/src/main/res/layout/fragment_timeslot_details.xml" value="0.264" />
+        <entry key="..\:/Users/Gabriele/Documents/GitHub/TimeBankingApp/app/src/main/res/layout/fragment_timeslot_details__edit.xml" value="0.264" />
+        <entry key="..\:/Users/Gabriele/Documents/GitHub/TimeBankingApp/app/src/main/res/layout/fragment_timeslot_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Gabriele/Documents/GitHub/TimeBankingApp/app/src/main/res/layout/fragment_timeslot_list_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Gabriele/Documents/GitHub/TimeBankingApp/app/src/main/res/layout/nav_header.xml" value="0.1" />
+        <entry key="..\:/Users/Gabriele/Documents/GitHub/TimeBankingApp/app/src/main/res/layout/recycler_view_header.xml" value="0.13703703703703704" />
+        <entry key="..\:/Users/Gabriele/Documents/GitHub/TimeBankingApp/app/src/main/res/menu/category_menu.xml" value="0.1" />
+        <entry key="..\:/Users/Gabriele/Documents/GitHub/TimeBankingApp/app/src/main/res/menu/context_menu.xml" value="0.1" />
+        <entry key="..\:/Users/Gabriele/Documents/GitHub/TimeBankingApp/app/src/main/res/menu/drawer_view.xml" value="0.1962962962962963" />
+        <entry key="..\:/Users/Gabriele/Documents/GitHub/TimeBankingApp/app/src/main/res/menu/edit_bar.xml" value="0.2" />
+        <entry key="..\:/Users/Gabriele/Documents/GitHub/TimeBankingApp/app/src/main/res/menu/floating_context.xml" value="0.16052631578947368" />
+        <entry key="..\:/Users/Gabriele/Documents/GitHub/TimeBankingApp/app/src/main/res/mipmap-anydpi-v26/Sara.xml" value="0.2595" />
+        <entry key="..\:/Users/david/Documents/GitHub/TimeBankingApp/app/src/main/res/layout/dialog_filter.xml" value="0.2546875" />
+        <entry key="..\:/Users/david/Documents/GitHub/TimeBankingApp/app/src/main/res/layout/fragment_my_timeslot_details__edit.xml" value="0.2546875" />
+        <entry key="..\:/Users/david/Documents/GitHub/TimeBankingApp/app/src/main/res/layout/fragment_timeslot_details.xml" value="0.2546875" />
+        <entry key="..\:/Users/david/Documents/GitHub/TimeBankingApp/app/src/main/res/layout/reviews_list_adapter_header.xml" value="0.2546875" />
+        <entry key="..\:/Users/david/Documents/GitHub/TimeBankingApp/app/src/main/res/layout/reviews_list_item.xml" value="0.2546875" />
+        <entry key="..\:/Users/david/Documents/GitHub/TimeBankingApp/app/src/main/res/menu/category_menu.xml" value="0.2546875" />
+        <entry key="..\:/Users/david/Documents/GitHub/TimeBankingApp/app/src/main/res/menu/context_menu.xml" value="0.2546875" />
+        <entry key="..\:/Users/david/Documents/GitHub/TimeBankingApp/app/src/main/res/menu/drawer_view.xml" value="0.2546875" />
+        <entry key="..\:/Users/david/Documents/GitHub/TimeBankingApp/app/src/main/res/menu/edit_menu.xml" value="0.2546875" />
+        <entry key="app/src/main/res/drawable-v24/ic_baseline_info_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/ic_baseline_person_outline_24.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_edit_profile.xml" value="0.24322916666666666" />
+        <entry key="app/src/main/res/layout/fragment_login.xml" value="0.24322916666666666" />
+        <entry key="app/src/main/res/layout/fragment_show_profile.xml" value="0.24322916666666666" />
+        <entry key="app/src/main/res/layout/fragment_sign_up.xml" value="0.24322916666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.136" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

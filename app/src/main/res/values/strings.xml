@@ -1,0 +1,190 @@
+<resources>
+    <string name="app_name">TimeBankingApp</string>
+
+    <string name="header_title">Timeslot Section</string>
+    <string name="title_menu">Main Activities</string>
+    <string name="header_body">In this section you can see all your time slot. In addition you can add new timeslot or edit and delete existing timeslot</string>
+    <string name="interested_header_title">Interested Timeslot Section</string>
+    <string name="interested_header_body">In this section you can find all of your interested timeslots.</string>
+    <string name="assigned_header_title">Assigned Timeslot Section</string>
+    <string name="assigned_header_body">In this section you can find all the timeslots that you have been assigned.</string>
+    <string name="accepted_header_title">Accepted Timeslot Section</string>
+    <string name="accepted_header_body">In this section you can find all timeslots that you have accepted.</string>
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="location">Location</string>
+    <string name="skills">Skills</string>
+    <string name="description">Description</string>
+    <string name="ratings">Ratings</string>
+
+    <string name="accepted">Accepted</string>
+    <string name="assigned">Assigned</string>
+
+    <string name="mandatory_message">* Mandatory fields</string>
+
+    <string name="profile_image">profile image</string>
+    <string name="camera_image">camera button</string>
+    <string name="edit_image">edit button</string>
+    <string name="category_image">category image</string>
+
+    <string name="name_hint">Name*</string>
+    <string name="surname_hint">Surname*</string>
+    <string name="username_hint">Username*</string>
+    <string name="email_hint">Email*</string>
+    <string name="location_hint">Location*</string>
+    <string name="skill_hint">New skill</string>
+    <string name="plus">+</string>
+    <string name="description_hint">* Write something about yourself</string>
+
+    <string name="camera_option">Take a picture</string>
+    <string name="gallery_option">Select image from gallery</string>
+
+    <string name="date">Date:</string>
+    <string name="time">Time:</string>
+    <string name="place">Place:</string>
+    <string name="hours">Hours:</string>
+    <string name="category">Category:</string>
+    <string name="add_label">Add timeslot</string>
+
+    <string name="title_hint">Title</string>
+    <string name="date_hint">Select date</string>
+    <string name="time_hint">Select time</string>
+    <string name="place_hint">Place</string>
+    <string name="hours_hint">Hours</string>
+    <string name="category_hint">Choose</string>
+
+    <string name="Caregiving">Caregiving</string>
+    <string name="Gardening">Gardening</string>
+    <string name="Pet_caring">Pet caring</string>
+    <string name="Housework">Housework</string>
+    <string name="Handwork">Handwork</string>
+    <string name="Technology">Technology</string>
+    <string name="Other">Other</string>
+
+    <string name="Title0">Home</string>
+    <string name="Title1">My TimeSlots</string>
+    <string name="Title2">Profile</string>
+    <string name="Title3">Interested</string>
+    <string name="Title4">Logout</string>
+    <string name="Title5">Accepted&amp;Assigned</string>
+    <string name="NavHeaderTitle1">Menu</string>
+    <string name="NavHeaderTitle2">What do you want to do?</string>
+
+    <string name="Job_Driver">Driver</string>
+    <string name="Job_Singer">Singer</string>
+    <string name="Job_Trader">Trader</string>
+    <string name="Job_BabySitter">BabySitter</string>
+    <string name="Job_DogSitter">DogSitter</string>
+    <string name="Job_Gardener">Gardener</string>
+    <string name="Job_Plumber">Plumber</string>
+    <string name="ClickHere">CLICK ME for more..</string>
+    <string name="add_timeslot">Add a Timeslot</string>
+    <string name="DeleteListItem">Delete the list item</string>
+    <string name="SnackBar_NoItems">It seems there are no timeslot. Please, try again later…</string>
+    <string name="SnackBar_NoMyItems">It seems there are no timeslots you have created. You can add a new TimeSlot just by clicking the + button…</string>
+    <string name="SnackBar_NoItems_interested">It seems there are no interested timeslots. You can add them by clicking on the heart.</string>
+    <string name="SnackBar_NoReviewsItems">It seems there are no reviews</string>
+    <string name="SnackBar_NoRating">Please, enter a rating!</string>
+    <string name="SnackBar_ReviewSent">Good Job! A new review has been sent.</string>
+    <string name="SnackBar_NoReviews">It seems there are no reviews to check!</string>
+
+
+    <string name="zero">0</string>
+
+    <string name="Hours">Hours:</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Most_Viewed">Most Viewed</string>
+    <string name="Categories">Categories</string>
+
+    <string name="Description2">Description:</string>
+    <string name="OfferedBy">Offered by:</string>
+
+    <string name="search_hint">Search Timeslots</string>
+
+    <string name="emailEdit">Email</string>
+    <string name="passwordEdit">Password</string>
+    <string name="SignIn">Sign In</string>
+    <string name="Login">Login</string>
+    <string name="Others">or</string>
+    <string name="RegisterHere">Register Here!</string>
+    <string name="NotRegister">Not registered yet?</string>
+    <string name="ErrorPsw">Wrong email or password!</string>
+    <string name="emptyFields">Email or password cannot be empty!</string>
+
+
+    <string name="emailRegister">Email</string>
+    <string name="passwordRegister">Password</string>
+    <string name="SignUp">Sign Up</string>
+    <string name="CreateAccount">Create Account</string>
+
+    <string name="dateSort">Date</string>
+    <string name="timeSort">Time</string>
+    <string name="filterTitle">Filter</string>
+    <string name="from">From</string>
+    <string name="start_date">Start date</string>
+    <string name="to">To</string>
+    <string name="end_date">End date</string>
+    <string name="start_time">Start time</string>
+    <string name="end_time">End time</string>
+    <string name="_0">0</string>
+    <string name="sort">Sort</string>
+    <string name="SearchTimeslot">Search Timeslot…</string>
+
+    <string name="EnterTitle">Enter a title…</string>
+    <string name="EnterLocation">Enter a location…</string>
+    <string name="EnterDate">Enter a date…</string>
+    <string name="EnterHours">Enter hours…</string>
+    <string name="EnterCategory">Enter a category…</string>
+    <string name="EnterTime">Enter a time…</string>
+    <string name="EnterDescription">Add your description…</string>
+
+    <string name="timeslot_image">Timeslot Image</string>
+    <string name="complete_registration">Complete registration</string>
+    <string name="passwordConfirmed">Confirm password</string>
+    <string name="matchPassword">Passwords are not matching!!</string>
+
+    <string name="createTimeslot">Create a new Timeslot</string>
+    <string name="my_header_title">My Timeslot Section</string>
+    <string name="shortPassword">Password is too short. It must be at least 6 characters long!</string>
+    <string name="registrationFailed">This account already exists</string>
+    <string name="write_message">Write message</string>
+    <string name="send">Send</string>
+    <string name="cancel">Cancel</string>
+    <string name="offer_title">Enter how many hours you want to offer</string>
+    <string name="offer_hint">Hours...</string>
+    <string name="retire">Retire</string>
+    <string name="startChat">Send a message</string>
+    <string name="writeReview">Write a review</string>
+    <string name="rate">Rate Your Experience</string>
+    <string name="rate2">Care to share more about it?</string>
+    <string name="rate3">Optionally*</string>
+
+
+
+    <string name="offer_btn">send new Offer</string>
+    <string name="accept">Accept</string>
+    <string name="offer_accepted">Offer accepted</string>
+    <string name="Title6">Chats</string>
+    <string name="edit">edit</string>
+    <string name="nOfRatings">Based on %1$s ratings</string>
+    <string name="seeAllReviewsAsAWorker">See all reviews as a worker</string>
+    <string name="seeAllReviewsAsAUser">See all reviews as a user</string>
+    <string name="asUser">(As a user)</string>
+    <string name="asWorker">(As a worker)</string>
+
+    <string name="excellent">Excellent</string>
+    <string name="good">Good</string>
+    <string name="average">Average</string>
+    <string name="belowAverage">Below Average</string>
+    <string name="poor">Poor</string>
+    <string name="ratingBar">ratingBar</string>
+    <string name="other_s_timeslots">Other\'s timeslots</string>
+    <string name="your_timeslots">Your timeslots</string>
+    <string name="tot">/5</string>
+    <string name="offered_by">Offered by:</string>
+
+
+</resources>

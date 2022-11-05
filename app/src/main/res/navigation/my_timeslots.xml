@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_timeslots"
+    app:startDestination="@id/myTimeslotList"
+    tools:ignore="ExtraText">
+    <fragment
+        android:id="@+id/myTimeslotList"
+        android:name="com.example.timebankingapp.MyTimeslotsList"
+        android:label="@string/Title1"
+        tools:layout="@layout/fragment_my_timeslots_list">
+        <action
+            android:id="@+id/action_timeslotList_to_createTimeslot"
+            app:destination="@id/createTimeslot"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/slide_out" />
+        <action
+            android:id="@+id/action_timeslotList_to_myTimeslotDetails"
+            app:destination="@id/myTimeslotDetails"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/slide_out" />
+        <action
+            android:id="@+id/action_timeslotList_to_myTimeslotDetails_Edit"
+            app:destination="@id/myTimeslotDetails_Edit"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/slide_out" />
+        <action
+            android:id="@+id/action_myTimeslotList_to_nav_graph"
+            app:destination="@id/nav_graph" />
+        <action
+            android:id="@+id/action_myTimeslotList_to_googleSignInFragment3"
+            app:destination="@id/googleSignInFragment3" />
+    </fragment>
+    <fragment
+        android:id="@+id/createTimeslot"
+        android:name="com.example.timebankingapp.CreateTimeslot"
+        android:label="Create new TimeSlot"
+        tools:layout="@layout/fragment_create_timeslot"/>
+    <fragment
+        android:id="@+id/myTimeslotDetails"
+        android:name="com.example.timebankingapp.MyTimeslotDetails"
+        android:label="MyTimeSlot Details">
+        <action
+            android:id="@+id/action_timeslotDetails_to_timeslotDetails_Edit"
+            app:destination="@id/myTimeslotDetails_Edit"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/slide_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/myTimeslotDetails_Edit"
+        android:name="com.example.timebankingapp.TimeslotDetails_Edit"
+        android:label="Edit MyTimeSlot"
+        tools:layout="@layout/fragment_my_timeslot_details__edit" />
+    <fragment
+        android:id="@+id/googleSignInFragment3"
+        android:name="com.example.timebankingapp.GoogleSignInFragment"
+        android:label="Sign in" />
+
+</navigation>

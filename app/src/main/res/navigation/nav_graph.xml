@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/home">
+
+    <fragment
+        android:id="@+id/chat2"
+        android:name="com.example.timebankingapp.Chat"
+        android:label="Chat" />
+    <fragment
+        android:id="@+id/chatList"
+        android:name="com.example.timebankingapp.ChatList"
+        android:label="Chat List">
+        <action
+            android:id="@+id/action_chatList_to_chat2"
+            app:destination="@id/chat2" />
+        <action
+            android:id="@+id/action_chatList_to_googleSignInFragment"
+            app:destination="@id/googleSignInFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/myTimeslotDetails"
+        android:name="com.example.timebankingapp.MyTimeslotDetails"
+        android:label="MyTimeSlot Details" />
+    <fragment
+        android:id="@+id/accepted_assigned_timeslotsList"
+        android:name="com.example.timebankingapp.Accepted_AssignedTimeslotList"
+        android:label="@string/Title5">
+        <action
+            android:id="@+id/action_accepted_assigned_timeslotsList_to_myTimeslotDetails"
+            app:destination="@id/myTimeslotDetails" />
+        <action
+            android:id="@+id/action_accepted_assigned_timeslotsList_to_googleSignInFragment"
+            app:destination="@id/googleSignInFragment" />
+        <action
+            android:id="@+id/action_accepted_assigned_timeslotsList_to_timeslot"
+            app:destination="@id/timeslot" />
+    </fragment>
+    <fragment
+        android:id="@+id/interested_timeslotsList"
+        android:name="com.example.timebankingapp.InterestedTimeslotsList"
+        android:label="@string/Title3">
+        <action
+            android:id="@+id/action_interested_timeslotsList_to_googleSignInFragment"
+            app:destination="@id/googleSignInFragment" />
+        <action
+            android:id="@+id/action_interested_timeslotsList_to_timeslot"
+            app:destination="@id/timeslot" />
+    </fragment>
+    <include app:graph="@navigation/timeslot" />
+    <fragment
+        android:id="@+id/googleSignInFragment"
+        android:name="com.example.timebankingapp.GoogleSignInFragment"
+        android:label="Sign in" />
+    <fragment
+        android:id="@+id/home"
+        android:name="com.example.timebankingapp.HomeScreen"
+        android:label="Home"
+        tools:layout="@layout/fragment_home_screen" >
+        <action
+            android:id="@+id/action_home_to_googleSignInFragment2"
+            app:destination="@id/googleSignInFragment2" />
+        <action
+            android:id="@+id/action_home_to_timeslots"
+            app:destination="@id/timeslots" />
+    </fragment>
+
+    <include app:graph="@navigation/my_timeslots"/>
+    <include app:graph="@navigation/profile"/>
+    <include app:graph="@navigation/accepted_assigned_timeslots"/>
+
+
+    <fragment
+        android:id="@+id/googleSignInFragment2"
+        android:name="com.example.timebankingapp.GoogleSignInFragment"
+        android:label="Sign in">
+        <action
+            android:id="@+id/action_googleSignInFragment2_to_signUpFragment"
+            app:destination="@id/signUpFragment" />
+        <action
+            android:id="@+id/action_googleSignInFragment2_to_completeRegistration"
+            app:destination="@id/completeRegistration" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="com.example.timebankingapp.SignUpFragment"
+        android:label="Sign up">
+        <action
+            android:id="@+id/action_signUpFragment_to_completeRegistration"
+            app:destination="@id/completeRegistration" />
+    </fragment>
+    <fragment
+        android:id="@+id/completeRegistration"
+        android:name="com.example.timebankingapp.CompleteRegistration"
+        android:label="Complete Registration" />
+    <include app:graph="@navigation/timeslots" />
+    <include app:graph="@navigation/interested_timeslots" />
+
+
+</navigation>

@@ -1,0 +1,37 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/timeslot"
+    app:startDestination="@id/timeslotDetails">
+
+    <fragment
+        android:id="@+id/chat"
+        android:name="com.example.timebankingapp.Chat"
+        android:label="Chat" />
+    <fragment
+        android:id="@+id/showProfile2"
+        android:name="com.example.timebankingapp.ShowProfile"
+        tools:layout="@layout/fragment_show_profile"
+        android:label="Owner profile" >
+        <action
+            android:id="@+id/action_showProfile2_to_reviewsList"
+            app:destination="@id/reviewsList" />
+    </fragment>
+    <fragment
+        android:id="@+id/timeslotDetails"
+        android:name="com.example.timebankingapp.TimeslotDetails"
+        tools:layout="@layout/fragment_timeslot_details">
+        <action
+            android:id="@+id/action_timeslotDetails_to_showProfile2"
+            app:destination="@id/showProfile2" />
+        <action
+            android:id="@+id/action_timeslotDetails_to_chat"
+            app:destination="@id/chat" />
+    </fragment>
+    <fragment
+        android:id="@+id/reviewsList"
+        android:name="com.example.timebankingapp.ReviewsList"
+        android:label="action_showProfile_to_fragment_reviewsList"
+        tools:layout="@layout/fragment_reviews_list" />
+
+</navigation>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/accepted_assigned_navigation"
+    app:startDestination="@id/accepted_assigned_timeslotsList">
+
+    <fragment
+        android:id="@+id/googleSignInFragment"
+        android:name="com.example.timebankingapp.GoogleSignInFragment"
+        android:label="Sign in" />
+    <fragment
+        android:id="@+id/myTimeslotDetails"
+        android:name="com.example.timebankingapp.MyTimeslotDetails"
+        android:label="MyTimeSlot Details"/>
+    <fragment
+        android:id="@+id/accepted_assigned_timeslotsList"
+        android:name="com.example.timebankingapp.Accepted_AssignedTimeslotList"
+        android:label="@string/Title5">
+        <action
+            android:id="@+id/action_accepted_assigned_timeslotsList_to_myTimeslotDetails"
+            app:destination="@id/myTimeslotDetails" />
+        <action
+            android:id="@+id/action_accepted_assigned_timeslotsList_to_googleSignInFragment"
+            app:destination="@id/googleSignInFragment" />
+        <action
+            android:id="@+id/action_accepted_assigned_timeslotsList_to_timeslot"
+            app:destination="@id/timeslot" />
+    </fragment>
+    <include app:graph="@navigation/timeslot" />
+</navigation>

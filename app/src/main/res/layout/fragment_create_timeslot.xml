@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="5dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/cameraButton"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center|end"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/circular_btn"
+            android:elevation="100dp"
+            app:cardCornerRadius="30dp"
+            app:contentPadding="7dp"
+            app:layout_constraintBottom_toBottomOf="@+id/card_view_image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:shapeAppearance="@style/circleImageView"
+            app:srcCompat="@drawable/icon_camera" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view_image"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="15dp"
+            app:layout_constraintBottom_toTopOf="@+id/timeslot_create_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_weight="6">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/timeslot_image"
+                android:minHeight="200dp"
+                android:scaleType="centerCrop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:srcCompat="@drawable/drawable1" />
+        </androidx.cardview.widget.CardView>
+
+
+        <EditText
+            android:id="@+id/timeslot_create_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:autofillHints=""
+            android:gravity="center_vertical"
+            android:hint="@string/EnterTitle"
+            android:inputType="textShortMessage"
+            android:maxLength="20"
+            android:maxLines="1"
+            android:paddingStart="5dp"
+            android:paddingTop="5dp"
+            android:paddingEnd="5dp"
+            android:paddingBottom="5dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="@color/teal_700"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/timeslot_create_hours"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/card_view_image"
+            app:layout_constraintVertical_weight="1"
+            tools:ignore="TextContrastCheck" />
+
+        <EditText
+            android:id="@+id/timeslot_create_hours"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:autofillHints=""
+            android:drawablePadding="5dp"
+            android:gravity="center_vertical"
+            android:hint="@string/EnterHours"
+            android:inputType="number"
+            android:padding="5dp"
+            app:drawableStartCompat="@drawable/hours_money_icon2"
+            app:layout_constraintBottom_toTopOf="@+id/timeslot_create_date"
+            app:layout_constraintEnd_toStartOf="@+id/timeslot_create_location"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/timeslot_create_title"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="TextContrastCheck" />
+
+
+        <EditText
+            android:id="@+id/timeslot_create_location"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:autofillHints=""
+            android:drawablePadding="5dp"
+            android:gravity="center_vertical"
+            android:hint="@string/EnterLocation"
+            android:inputType="none"
+            android:padding="5dp"
+            app:drawableStartCompat="@drawable/place_icon"
+            app:layout_constraintBottom_toBottomOf="@id/timeslot_create_hours"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/timeslot_create_hours"
+            app:layout_constraintTop_toTopOf="@id/timeslot_create_hours" />
+
+        <TextView
+            android:id="@+id/timeslot_create_time"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:drawablePadding="5dp"
+            android:gravity="center_vertical"
+            android:hint="@string/EnterTime"
+            android:padding="5dp"
+            android:textSize="18sp"
+            app:drawableStartCompat="@drawable/clock_icon"
+            app:layout_constraintBottom_toBottomOf="@+id/timeslot_create_date"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.214"
+            app:layout_constraintStart_toEndOf="@+id/timeslot_create_date"
+            app:layout_constraintTop_toTopOf="@id/timeslot_create_date"
+            app:layout_constraintVertical_weight="1" />
+
+        <TextView
+            android:id="@+id/timeslot_create_date"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:drawablePadding="5dp"
+            android:gravity="center_vertical"
+            android:hint="@string/EnterDate"
+            android:padding="5dp"
+            android:textSize="18sp"
+            app:drawableStartCompat="@drawable/calendar_icon"
+            app:layout_constraintBottom_toTopOf="@+id/timeslot_create_category"
+            app:layout_constraintEnd_toStartOf="@+id/timeslot_create_time"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/timeslot_create_location"
+            app:layout_constraintVertical_weight="1" />
+
+        <TextView
+            android:id="@+id/timeslot_create_category"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:drawablePadding="5dp"
+            android:gravity="center_vertical"
+            android:hint="@string/EnterCategory"
+            android:padding="5dp"
+            android:textSize="18sp"
+            app:drawableStartCompat="@drawable/category_icon"
+            app:layout_constraintBottom_toTopOf="@+id/textView10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/timeslot_create_date"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="2dp"
+            android:gravity="center_vertical"
+            android:padding="5dp"
+            android:text="@string/description"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#00897B"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/timeslot_create_description"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/timeslot_create_category" />
+
+        <EditText
+            android:id="@+id/timeslot_create_description"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginEnd="55dp"
+            android:autofillHints=""
+            android:background="@color/white"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="@string/EnterDescription"
+            android:inputType="textLongMessage"
+            android:lines="3"
+            android:padding="5dp"
+            android:textColor="@color/dark_slate_gray"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView10"
+            app:layout_constraintVertical_weight="3" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/timeslot_create_saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:backgroundTint="@color/teal_200"
+        android:contentDescription="@string/add_timeslot"
+        android:src="@android:drawable/ic_input_add"
+        app:backgroundTint="@color/black"
+        app:borderWidth="3dp"
+        app:elevation="15dp"
+        app:rippleColor="@color/black" />
+
+</androidx.cardview.widget.CardView>

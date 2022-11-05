@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/title_menu">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/home"
+                    android:checkable="true"
+                    android:icon="@drawable/icon_home"
+                    android:title="@string/Title0" />
+                <item
+                    android:id="@+id/my_timeslots"
+                    android:checkable="true"
+                    android:icon="@android:drawable/ic_lock_lock"
+                    android:title="@string/Title1" />
+                <item
+                    android:id="@+id/interested_timeslots"
+                    android:checkable="true"
+                    android:icon="@drawable/icon_interested"
+                    android:title="@string/Title3" />
+                <item
+                    android:id="@+id/accepted_assigned_navigation"
+                    android:checkable="true"
+                    android:icon="@drawable/accepted_assigned_icon"
+                    android:title="@string/Title5" />
+                <item
+                    android:id="@+id/chatList"
+                    android:checkable="true"
+                    android:icon="@drawable/ic_baseline_chat_24"
+                    android:title="@string/Title6" />
+                <item
+                    android:id="@+id/profile"
+                    android:checkable="true"
+                    android:icon="@drawable/icon_profile"
+                    android:title="@string/Title2" />
+                <item
+                    android:id="@+id/logout"
+                    android:checkable="true"
+                    android:icon="@drawable/logout_icon"
+                    android:title="@string/Title4"
+                    android:onClick="logoutFun"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/profile"
+    app:startDestination="@+id/showProfile">
+
+    <fragment
+        android:id="@+id/showProfile"
+        android:name="com.example.timebankingapp.ShowProfile"
+        android:label="Profile"
+        tools:layout="@layout/fragment_show_profile">
+        <action
+            android:id="@+id/action_showProfile_to_editProfile"
+            app:destination="@id/editProfile"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/slide_out" />
+        <action
+            android:id="@+id/action_showProfile_to_googleSignInFragment"
+            app:destination="@id/googleSignInFragment" />
+        <action
+            android:id="@+id/action_showProfile_to_fragment_reviewsList"
+            app:destination="@id/fragment_reviewsList" />
+    </fragment>
+    <fragment
+        android:id="@+id/editProfile"
+        android:name="com.example.timebankingapp.EditProfile"
+        android:label="Edit Profile"
+        tools:layout="@layout/fragment_edit_profile" />
+    <fragment
+        android:id="@+id/googleSignInFragment"
+        android:name="com.example.timebankingapp.GoogleSignInFragment"
+        android:label="Sign in" />
+    <fragment
+        android:id="@+id/fragment_reviewsList"
+        android:name="com.example.timebankingapp.ReviewsList"
+        android:label="Reviews"
+        tools:layout="@layout/fragment_reviews_list" />
+</navigation>
